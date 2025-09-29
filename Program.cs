@@ -21,8 +21,18 @@ class Program
         http.DefaultRequestHeaders.Authorization =
             new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
 
+        //var store = new MemoryStore("memory.json");
+        //var userId = "rounak";
+
         var store = new MemoryStore("memory.json");
-        var userId = "rounak";
+        Console.WriteLine("Enter your user name:");
+        var userId = Console.ReadLine()?.Trim();
+
+        if (string.IsNullOrWhiteSpace(userId))
+        {
+            Console.WriteLine("User ID cannot be empty. Exiting.");
+            return;
+        }
 
         Console.WriteLine("Ask a question (type 'q' to quit):");
         while (true)
