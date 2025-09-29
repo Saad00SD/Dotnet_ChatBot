@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "t196YUdamT4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saadf\\Desktop\\Sherbet_Internship\\Projects\\2_Sherbot\\.Net_Implementation\\ChatMemoryBot\\ChatMemoryBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saadf\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\saadf\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\saadf\\.nuget\\packages\\openai\\2.5.0\\openai.2.5.0.nupkg.sha512",
+    "C:\\Users\\saadf\\.nuget\\packages\\system.clientmodel\\1.6.1\\system.clientmodel.1.6.1.nupkg.sha512",
+    "C:\\Users\\saadf\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
